@@ -20,4 +20,4 @@ dl_Metil:
 	make -C Metil
 	
 dl_PrepArg:
-	test -e PrepArg || git clone https://github.com/hleclerc/PrepArg.git
+	test -e PrepArg || git clone git://github.com/hleclerc/PrepArg.git
