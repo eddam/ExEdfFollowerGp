@@ -7,6 +7,9 @@
 #define PREPARG_FILE <ex_pl_args.h>
 #include <PrepArg/usage.h>
 
+#define PRINT( V ) qDebug() << #V " -> " << ( V )
+
+
 QString img_name( QString pattern, int cpt ) {
     return QString( pattern ).arg( cpt, 3, 10, QChar( '0' ) );
 }
@@ -77,8 +80,6 @@ Image<double> filter( const Image<double> &a, double fc ) {
     r.contrasted( r.max() * 0.925, r.max() * 0.99, 0, 255 ).save( "filt.png" );
     return r;
 }
-
-#define PRINT( V ) qDebug() << #V " -> " << ( V )
 
 int main( int argc, char **argv ) {
     // arguments

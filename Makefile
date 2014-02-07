@@ -4,13 +4,13 @@ all: dl_Metil dl_PrepArg
 	${MC} -o ex_edf_follower -ne main.cpp
 
 anto32_1_1:
-	${MC} main.cpp --flat-field "/data/visitor/ma1876/id19/data_correl/anto32_1_1/anto32_1_1_ref_0000.edf" --pattern "/data/visitor/ma1876/id19/data_correl/anto32_1_1/anto32_1_10%1_radio.edf" --fc 50 --result-file "/data/visitor/ma1876/id19/data_correl/anto32_1_1/resultCorrel_anto32_1_1_.txt"
+	${MC} main.cpp --flat-field "/data/visitor/ma1876/id19/data_correl/anto32_1_1/anto32_1_1_ref_0000.edf" --pattern "/data/visitor/ma1876/id19/data_correl/anto32_1_1/anto32_1_10%1_radio.edf" --fc 0.035 --result-file "/data/visitor/ma1876/id19/data_correl/anto32_1_1/resultCorrel_anto32_1_1_.txt"
  
 anto38_1b:
-	${MC} main.cpp --flat-field "/data/visitor/ma1876/id19/data_correl/anto38_1b/anto38_1b_ref_0000.edf" --pattern "/data/visitor/ma1876/id19/data_correl/anto38_1b/anto38_1b0%1_radio.edf" --fc 50 --result-file "/data/visitor/ma1876/id19/data_correl/anto38_1b/resultCorrel_anto38_1b.txt"
+	${MC} main.cpp --flat-field "/data/visitor/ma1876/id19/data_correl/anto38_1b/anto38_1b_ref_0000.edf" --pattern "/data/visitor/ma1876/id19/data_correl/anto38_1b/anto38_1b0%1_radio.edf" --fc 0.035 --result-file "/data/visitor/ma1876/id19/data_correl/anto38_1b/resultCorrel_anto38_1b.txt"
  
 anto30_1:
-	${MC} main.cpp --flat-field "/data/visitor/ma1876/id19/data_correl/anto30_1/anto30_1_ref_0000.edf" --pattern "/data/visitor/ma1876/id19/data_correl/anto30_1/anto30_10%1_radio.edf" --fc 50 --result-file "/data/visitor/ma1876/id19/data_correl/anto38_1b/resultCorrel_anto30_1.txt"
+	${MC} main.cpp --flat-field "/data/visitor/ma1876/id19/data_correl/anto30_1/anto30_1_ref_0000.edf" --pattern "/data/visitor/ma1876/id19/data_correl/anto30_1/anto30_10%1_radio.edf" --fc 0.035 --result-file "/data/visitor/ma1876/id19/data_correl/anto38_1b/resultCorrel_anto30_1.txt"
  
 	
 	
